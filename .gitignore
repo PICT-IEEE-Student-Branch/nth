@@ -1,0 +1,17 @@
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+*.pem
+# Dependencies & builds
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+dist/
+build/
+.next/
+.vercel/
+# OS
+.DS_Store
